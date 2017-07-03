@@ -1,6 +1,6 @@
 # VoiceButton-Swift
 
-![Screenshot](Simulator.png)
+![Screenshot](screenshot.png)
 
 Simple and reusable component that converts user's speech to text. Can be used in XIB file. Written using Swift 3. Uses Siri Speech Framework for voice to text conversion.
 
