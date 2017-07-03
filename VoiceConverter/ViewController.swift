@@ -34,7 +34,7 @@ extension ViewController : VoiceButtonDelegate {
 
     /// callback when recording started
     func startedRecording() {
-
+        speechTextField.text = ""
     }
 
     /// callback when recording stopped
