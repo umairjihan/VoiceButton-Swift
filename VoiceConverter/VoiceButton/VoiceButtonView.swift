@@ -7,7 +7,8 @@
 
 import UIKit
 
-@objc protocol VoiceButtonDelegate {
+ /// Voice Button Delegate Protocol
+protocol VoiceButtonDelegate {
     func updateSpeechText(_ text: String)
     func startedRecording()
     func stoppedRecording()
