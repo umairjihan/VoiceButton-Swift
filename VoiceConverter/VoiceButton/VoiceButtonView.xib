@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VoiceButtonView" customModule="VoiceConverter" customModuleProvider="target">
+            <connections>
+                <outlet property="voiceButton" destination="NlN-BF-PDD" id="zIt-0i-BIm"/>
+                <outlet property="voiceRangeView" destination="yuz-QF-Acc" id="eQI-ZX-mgy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="152"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yuz-QF-Acc">
+                    <rect key="frame" x="102.5" y="18.5" width="115" height="115"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="115" id="5Lb-xD-W1w"/>
+                        <constraint firstAttribute="height" constant="115" id="5M5-11-dAF"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NlN-BF-PDD">
+                    <rect key="frame" x="120" y="36" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="ean-Rv-JhP"/>
+                        <constraint firstAttribute="height" constant="80" id="mtX-PO-xce"/>
+                    </constraints>
+                    <state key="normal" image="microphone_icon" backgroundImage="button_bg"/>
+                    <connections>
+                        <action selector="buttonPressed" destination="-1" eventType="touchUpInside" id="KIp-JJ-9Wc"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yuz-QF-Acc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="JH3-KN-Lzx"/>
+                <constraint firstItem="NlN-BF-PDD" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="RHD-a5-LtS"/>
+                <constraint firstItem="yuz-QF-Acc" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="VkS-su-FhU"/>
+                <constraint firstItem="NlN-BF-PDD" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="sHQ-Fw-ZgB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-12" y="-268"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button_bg" width="150" height="150"/>
+        <image name="microphone_icon" width="32" height="50"/>
+    </resources>
+</document>

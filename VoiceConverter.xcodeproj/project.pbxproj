@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2DB8D2C1F034C57007FBE74 /* SpeechRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DB8D2B1F034C57007FBE74 /* SpeechRecorder.swift */; };
+		E2DE1FD11EDFBE2F00B2D892 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE1FD01EDFBE2F00B2D892 /* AppDelegate.swift */; };
+		E2DE1FD31EDFBE2F00B2D892 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE1FD21EDFBE2F00B2D892 /* ViewController.swift */; };
+		E2DE1FD61EDFBE2F00B2D892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DE1FD41EDFBE2F00B2D892 /* Main.storyboard */; };
+		E2DE1FD81EDFBE2F00B2D892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DE1FD71EDFBE2F00B2D892 /* Assets.xcassets */; };
+		E2DE1FDB1EDFBE2F00B2D892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DE1FD91EDFBE2F00B2D892 /* LaunchScreen.storyboard */; };
+		E2DE1FE41EDFC2B100B2D892 /* VoiceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE1FE31EDFC2B100B2D892 /* VoiceButtonView.swift */; };
+		E2DE1FE61EDFC3D900B2D892 /* VoiceButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2DE1FE51EDFC3D900B2D892 /* VoiceButtonView.xib */; };
+		E2DE1FE81EDFC46B00B2D892 /* VoiceButtonAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DE1FE71EDFC46B00B2D892 /* VoiceButtonAssets.xcassets */; };
+		E2DE1FEA1EDFCC8800B2D892 /* UIImage+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE1FE91EDFCC8800B2D892 /* UIImage+Colorize.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2DB8D2B1F034C57007FBE74 /* SpeechRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecorder.swift; sourceTree = "<group>"; };
+		E2DE1FCD1EDFBE2F00B2D892 /* VoiceConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2DE1FD01EDFBE2F00B2D892 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2DE1FD21EDFBE2F00B2D892 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2DE1FD51EDFBE2F00B2D892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2DE1FD71EDFBE2F00B2D892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2DE1FDA1EDFBE2F00B2D892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2DE1FDC1EDFBE2F00B2D892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2DE1FE31EDFC2B100B2D892 /* VoiceButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceButtonView.swift; sourceTree = "<group>"; };
+		E2DE1FE51EDFC3D900B2D892 /* VoiceButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoiceButtonView.xib; sourceTree = "<group>"; };
+		E2DE1FE71EDFC46B00B2D892 /* VoiceButtonAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = VoiceButtonAssets.xcassets; sourceTree = "<group>"; };
+		E2DE1FE91EDFCC8800B2D892 /* UIImage+Colorize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Colorize.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2DE1FCA1EDFBE2F00B2D892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2DE1FC41EDFBE2F00B2D892 = {
+			isa = PBXGroup;
+			children = (
+				E2DE1FCF1EDFBE2F00B2D892 /* VoiceConverter */,
+				E2DE1FCE1EDFBE2F00B2D892 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2DE1FCE1EDFBE2F00B2D892 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2DE1FCD1EDFBE2F00B2D892 /* VoiceConverter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2DE1FCF1EDFBE2F00B2D892 /* VoiceConverter */ = {
+			isa = PBXGroup;
+			children = (
+				E2DE1FE21EDFBF1600B2D892 /* VoiceButton */,
+				E2DE1FD01EDFBE2F00B2D892 /* AppDelegate.swift */,
+				E2DE1FD21EDFBE2F00B2D892 /* ViewController.swift */,
+				E2DE1FD41EDFBE2F00B2D892 /* Main.storyboard */,
+				E2DE1FD71EDFBE2F00B2D892 /* Assets.xcassets */,
+				E2DE1FD91EDFBE2F00B2D892 /* LaunchScreen.storyboard */,
+				E2DE1FDC1EDFBE2F00B2D892 /* Info.plist */,
+			);
+			path = VoiceConverter;
+			sourceTree = "<group>";
+		};
+		E2DE1FE21EDFBF1600B2D892 /* VoiceButton */ = {
+			isa = PBXGroup;
+			children = (
+				E2DE1FE31EDFC2B100B2D892 /* VoiceButtonView.swift */,
+				E2DE1FE51EDFC3D900B2D892 /* VoiceButtonView.xib */,
+				E2DE1FE71EDFC46B00B2D892 /* VoiceButtonAssets.xcassets */,
+				E2DE1FE91EDFCC8800B2D892 /* UIImage+Colorize.swift */,
+				E2DB8D2B1F034C57007FBE74 /* SpeechRecorder.swift */,
+			);
+			path = VoiceButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2DE1FCC1EDFBE2F00B2D892 /* VoiceConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2DE1FDF1EDFBE2F00B2D892 /* Build configuration list for PBXNativeTarget "VoiceConverter" */;
+			buildPhases = (
+				E2DE1FC91EDFBE2F00B2D892 /* Sources */,
+				E2DE1FCA1EDFBE2F00B2D892 /* Frameworks */,
+				E2DE1FCB1EDFBE2F00B2D892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceConverter;
+			productName = VoiceConverter;
+			productReference = E2DE1FCD1EDFBE2F00B2D892 /* VoiceConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2DE1FC51EDFBE2F00B2D892 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Visa Worldwide Pte Ltd";
+				TargetAttributes = {
+					E2DE1FCC1EDFBE2F00B2D892 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = XJTUQP86CJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E2DE1FC81EDFBE2F00B2D892 /* Build configuration list for PBXProject "VoiceConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2DE1FC41EDFBE2F00B2D892;
+			productRefGroup = E2DE1FCE1EDFBE2F00B2D892 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2DE1FCC1EDFBE2F00B2D892 /* VoiceConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2DE1FCB1EDFBE2F00B2D892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2DE1FDB1EDFBE2F00B2D892 /* LaunchScreen.storyboard in Resources */,
+				E2DE1FE61EDFC3D900B2D892 /* VoiceButtonView.xib in Resources */,
+				E2DE1FE81EDFC46B00B2D892 /* VoiceButtonAssets.xcassets in Resources */,
+				E2DE1FD81EDFBE2F00B2D892 /* Assets.xcassets in Resources */,
+				E2DE1FD61EDFBE2F00B2D892 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2DE1FC91EDFBE2F00B2D892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2DE1FEA1EDFCC8800B2D892 /* UIImage+Colorize.swift in Sources */,
+				E2DE1FD31EDFBE2F00B2D892 /* ViewController.swift in Sources */,
+				E2DE1FD11EDFBE2F00B2D892 /* AppDelegate.swift in Sources */,
+				E2DE1FE41EDFC2B100B2D892 /* VoiceButtonView.swift in Sources */,
+				E2DB8D2C1F034C57007FBE74 /* SpeechRecorder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2DE1FD41EDFBE2F00B2D892 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2DE1FD51EDFBE2F00B2D892 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2DE1FD91EDFBE2F00B2D892 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2DE1FDA1EDFBE2F00B2D892 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2DE1FDD1EDFBE2F00B2D892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2DE1FDE1EDFBE2F00B2D892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2DE1FE01EDFBE2F00B2D892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XJTUQP86CJ;
+				INFOPLIST_FILE = VoiceConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivek.VoiceConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E2DE1FE11EDFBE2F00B2D892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XJTUQP86CJ;
+				INFOPLIST_FILE = VoiceConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivek.VoiceConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2DE1FC81EDFBE2F00B2D892 /* Build configuration list for PBXProject "VoiceConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2DE1FDD1EDFBE2F00B2D892 /* Debug */,
+				E2DE1FDE1EDFBE2F00B2D892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2DE1FDF1EDFBE2F00B2D892 /* Build configuration list for PBXNativeTarget "VoiceConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2DE1FE01EDFBE2F00B2D892 /* Debug */,
+				E2DE1FE11EDFBE2F00B2D892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2DE1FC51EDFBE2F00B2D892 /* Project object */;
+}
