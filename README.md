@@ -5,7 +5,7 @@ Simple and reusable component that converts user's speech to text. Can be used i
   - Handles all Speech Framework initialisation
   - Returns speech in String format.
   - Provides customisable UI button control that can be placed in a View  
-  -
+
 # How to Use
 
   - Drag and drop the folder "VoiceButton" into your XCode Project.
