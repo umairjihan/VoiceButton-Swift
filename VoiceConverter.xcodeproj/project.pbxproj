@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2A4D7C41F0B636900528ED2 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A4D7C31F0B636900528ED2 /* SpinnerView.swift */; };
 		E2DB8D2C1F034C57007FBE74 /* SpeechRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DB8D2B1F034C57007FBE74 /* SpeechRecorder.swift */; };
 		E2DE1FD11EDFBE2F00B2D892 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE1FD01EDFBE2F00B2D892 /* AppDelegate.swift */; };
 		E2DE1FD31EDFBE2F00B2D892 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE1FD21EDFBE2F00B2D892 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2A4D7C31F0B636900528ED2 /* SpinnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
 		E2DB8D2B1F034C57007FBE74 /* SpeechRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecorder.swift; sourceTree = "<group>"; };
 		E2DE1FCD1EDFBE2F00B2D892 /* VoiceConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DE1FD01EDFBE2F00B2D892 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				E2DE1FE71EDFC46B00B2D892 /* VoiceButtonAssets.xcassets */,
 				E2DE1FE91EDFCC8800B2D892 /* UIImage+Colorize.swift */,
 				E2DB8D2B1F034C57007FBE74 /* SpeechRecorder.swift */,
+				E2A4D7C31F0B636900528ED2 /* SpinnerView.swift */,
 			);
 			path = VoiceButton;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				E2DE1FD31EDFBE2F00B2D892 /* ViewController.swift in Sources */,
 				E2DE1FD11EDFBE2F00B2D892 /* AppDelegate.swift in Sources */,
 				E2DE1FE41EDFC2B100B2D892 /* VoiceButtonView.swift in Sources */,
+				E2A4D7C41F0B636900528ED2 /* SpinnerView.swift in Sources */,
 				E2DB8D2C1F034C57007FBE74 /* SpeechRecorder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

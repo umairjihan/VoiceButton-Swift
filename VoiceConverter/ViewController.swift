@@ -40,6 +40,7 @@ extension ViewController : VoiceButtonDelegate {
     /// callback when recording stopped
     func stoppedRecording() {
         speechTextField.text = ""
+       // voiceButton.showLoader()
     }
 
     /// callback when text is converted from speech

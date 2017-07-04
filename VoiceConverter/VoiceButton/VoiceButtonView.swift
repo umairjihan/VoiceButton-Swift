@@ -55,6 +55,7 @@ class VoiceButtonView: UIView {
     @IBOutlet fileprivate weak var buttonContainer: UIView!
     @IBOutlet fileprivate weak var voiceButton: UIButton!
     @IBOutlet fileprivate weak var voiceRangeView: UIView!
+    @IBOutlet fileprivate weak var spinnerView: SpinnerView!
     private var isRecording: Bool = false
     private var speechRecorder: SpeechRecorder?
     var voiceButtonDelegate: VoiceButtonDelegate?
@@ -79,6 +80,7 @@ class VoiceButtonView: UIView {
         self.buttonBGColor = UIColor(red:0.15, green:0.45, blue:0.66, alpha:1.0) // #2574A9
         self.buttonImageColor = .white
         addSubview(buttonContainer)
+        spinnerView.isHidden = true
         speechRecorder = SpeechRecorder()
         speechRecorder?.delegate = self
         speechRecorder?.setupSpeechRecorder(completion: { [weak self] (returnValue) -> Void in
@@ -145,6 +147,18 @@ class VoiceButtonView: UIView {
      }
      self.isRecording = !self.isRecording
   }
+
+    //MARK: Spinner 
+
+    func showLoader() {
+        voiceButton.alpha = 0.5
+        spinnerView.isHidden = false
+    }
+
+    func hideLoader() {
+        voiceButton.alpha = 1
+        spinnerView.isHidden = true
+    }
 }
 
 extension VoiceButtonView : SpeechRecorderDelegate {

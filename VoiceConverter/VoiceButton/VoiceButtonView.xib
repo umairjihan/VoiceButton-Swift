@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VoiceButtonView" customModule="VoiceConverter" customModuleProvider="target">
             <connections>
+                <outlet property="spinnerView" destination="uCo-O7-jvg" id="A1F-Vn-VUE"/>
                 <outlet property="voiceButton" destination="NlN-BF-PDD" id="zIt-0i-BIm"/>
                 <outlet property="voiceRangeView" destination="yuz-QF-Acc" id="eQI-ZX-mgy"/>
             </connections>
@@ -39,12 +40,22 @@
                         <action selector="buttonPressed" destination="-1" eventType="touchUpInside" id="KIp-JJ-9Wc"/>
                     </connections>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uCo-O7-jvg" customClass="SpinnerView" customModule="VoiceConverter" customModuleProvider="target">
+                    <rect key="frame" x="110" y="26" width="100" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Aw1-Z8-uA9"/>
+                        <constraint firstAttribute="width" constant="100" id="Pln-S8-NPo"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="yuz-QF-Acc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="JH3-KN-Lzx"/>
+                <constraint firstItem="uCo-O7-jvg" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="OZz-Ze-phr"/>
                 <constraint firstItem="NlN-BF-PDD" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="RHD-a5-LtS"/>
                 <constraint firstItem="yuz-QF-Acc" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="VkS-su-FhU"/>
+                <constraint firstItem="uCo-O7-jvg" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fQ0-Qj-w3G"/>
                 <constraint firstItem="NlN-BF-PDD" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="sHQ-Fw-ZgB"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
